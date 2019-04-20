@@ -4,10 +4,10 @@
 #
 Name     : perl-DateTime-Format-MySQL
 Version  : 0.06
-Release  : 10
+Release  : 11
 URL      : https://cpan.metacpan.org/authors/id/X/XM/XMIKEW/DateTime-Format-MySQL-0.06.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/X/XM/XMIKEW/DateTime-Format-MySQL-0.06.tar.gz
-Summary  : 'Parse and format MySQL dates and times'
+Summary  : Parse and format MySQL dates and times
 Group    : Development/Tools
 License  : Artistic-1.0-Perl GPL-2.0
 Requires: perl-DateTime-Format-MySQL-license = %{version}-%{release}
@@ -23,6 +23,7 @@ related data types.
 Summary: dev components for the perl-DateTime-Format-MySQL package.
 Group: Development
 Provides: perl-DateTime-Format-MySQL-devel = %{version}-%{release}
+Requires: perl-DateTime-Format-MySQL = %{version}-%{release}
 
 %description dev
 dev components for the perl-DateTime-Format-MySQL package.
