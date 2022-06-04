@@ -4,7 +4,7 @@
 #
 Name     : perl-DateTime-Format-MySQL
 Version  : 0.0701
-Release  : 20
+Release  : 21
 URL      : https://cpan.metacpan.org/authors/id/X/XM/XMIKEW/DateTime-Format-MySQL-0.0701.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/X/XM/XMIKEW/DateTime-Format-MySQL-0.0701.tar.gz
 Summary  : 'Parse and format MySQL dates and times'
@@ -91,4 +91,4 @@ find %{buildroot} -type f -name '*.bs' -empty -exec rm -f {} ';'
 
 %files perl
 %defattr(-,root,root,-)
-/usr/lib/perl5/vendor_perl/5.34.0/DateTime/Format/MySQL.pm
+/usr/lib/perl5/*
