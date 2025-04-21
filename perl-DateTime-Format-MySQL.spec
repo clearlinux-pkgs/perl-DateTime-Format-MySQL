@@ -7,7 +7,7 @@
 #
 Name     : perl-DateTime-Format-MySQL
 Version  : 0.08
-Release  : 29
+Release  : 30
 URL      : https://cpan.metacpan.org/authors/id/X/XM/XMIKEW/DateTime-Format-MySQL-0.08.tar.gz
 Source0  : https://cpan.metacpan.org/authors/id/X/XM/XMIKEW/DateTime-Format-MySQL-0.08.tar.gz
 Summary  : 'Parse and format MySQL dates and times'
